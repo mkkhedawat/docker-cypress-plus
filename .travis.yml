@@ -1,7 +1,7 @@
 language: minimal
 
 env:
-  - NODE_VERSION=16.14.2 NAMESPACE=mkkhedawat IMAGE_VERSION=v1.0.0 TAG=$NAMESPACE/cypress-plus:$NODE_VERSION-$IMAGE_VERSION TAG_LATEST=$NAMESPACE/cypress-plus:latest  TAG_NODE_LATEST=$NAMESPACE/cypress-plus:$NODE_VERSION-latest 
+  - NODE_VERSION=18.12.0 NAMESPACE=mkkhedawat IMAGE_VERSION=v1.0.0 TAG=$NAMESPACE/cypress-plus:$NODE_VERSION-$IMAGE_VERSION TAG_LATEST=$NAMESPACE/cypress-plus:latest  TAG_NODE_LATEST=$NAMESPACE/cypress-plus:$NODE_VERSION-latest 
 
 services:
   - docker

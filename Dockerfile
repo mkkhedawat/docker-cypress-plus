@@ -1,4 +1,4 @@
-FROM cypress/base:16.14.2
+FROM cypress/base:18.12.0
 
 # metadata
 LABEL maintainer="Manish K Khedawat"
